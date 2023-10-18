@@ -54,3 +54,27 @@ const homeSection=document.querySelectorAll('content')
 
 
 console.log(homeSection)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 
+
+
+fetch('https://api.sampleapis.com/coffee/hot')
+.then(res=>res.json())
+.then(json=>console.log(json))
+

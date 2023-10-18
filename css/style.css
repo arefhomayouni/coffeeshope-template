@@ -336,9 +336,164 @@ background-position: center;
 
 
 
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+
+.menu .box-container .box{
+    padding: .5rem;
+    text-align: center;
+    border: var(--border);
+
+}
+
+.menu .box-container .box img{
+    height: 10rem;
+}
+
+
+.menu .box-container .box h3{
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
 
 
 
+.menu .box-container .box .price{
+    color: #fff;
+    font-size: 2.5rem;
+    padding: .5rem 0;
+}
+
+
+
+
+.menu .box-container .box .price span{
+   
+    font-size: 1.5rem;
+   text-decoration: line-through;
+}
+
+.menu .box-container .box:hover{
+background: #fff;
+}
+
+.menu .box-container .box:hover > *{
+    color: var(--black);
+}
+
+
+.product .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem, 1fr));
+    gap: 1.5rem;
+}
+
+
+
+.product .box-container .box{
+    text-align: center;
+    border: var(--border);
+    padding: 2rem;
+}
+.product .box-container .box .icons a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    border: var(--border);
+    color: #fff;
+    margin: .3rem;
+}
+
+.product .box-container .box .icons a:hover{
+    background: var(--main-color);
+}
+
+
+.product .box-container .box .image{
+    padding: 2.5rem 0;
+}
+
+
+.product .box-container .box .image img{
+    height: 25rem;
+}
+.product .box-container .box .content h3{
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.product .box-container .box .content .stars{
+  padding: 1.5rem;
+}
+
+
+.product .box-container .box .content .stars i{
+    font-size: 1.7rem;
+    color: var(--main-color);
+
+  }
+
+  .product .box-container .box .content .price{
+    color: #fff;
+    font-size: 2.5rem;
+  }
+
+  .product .box-container .box .content .price span{
+    text-decoration: line-through;
+    font-weight: lighter;
+    font-size: 1.5rem;
+  }
+
+
+.review .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem, 1fr));
+    gap: 1.5rem;
+
+}
+
+
+.review .box-container .box{
+    border: var(--border);
+    text-align: center;
+    padding:3rem  2rem;
+
+}
+
+
+
+.review .box-container .box p{
+
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #ccc;
+    padding: 2rem 0;
+ 
+}
+
+.review .box-container .box .user{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review .box-container .box  h3{
+    padding: 1rem 0;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.review .box-container .box  .stars .i{
+     font-size: 1.5rem;
+    color: var(--main-color);
+}
 
 
 
@@ -373,7 +528,7 @@ background-position: center;
       background: #fff !important;
       width: 30rem !important;
       height: calc(100vh - 9.5rem) !important;
-      transition: 1s all ease-in-out;
+      transition: 0.5s all ease-in-out;
     }
      .active{
     right: 0 !important;  
