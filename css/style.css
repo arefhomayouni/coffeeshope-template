@@ -780,8 +780,9 @@ background: #fff;
     height: 100%;
     width: 100%;
     transition: all 2s;
-    opacity: 0;
-    visibility: hidden;
+  visibility: hidden;
+  opacity: 0;
+  
     margin: 0;
 
 }
@@ -816,3 +817,7 @@ background: #fff;
 }
 
 
+.swipe{
+  opacity: 1 !important;
+  visibility: visible !important;
+}
